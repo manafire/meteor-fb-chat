@@ -1,0 +1,14 @@
+<head>
+	<title>meteor-fb-chat</title>
+</head>
+
+<body>
+	{{> rooms}}
+</body>
+
+<template name="rooms">
+	<h1>Rooms</h1>
+		{{#each rooms}}
+			<li>{{name}}</li>
+		{{/each}}
+</template>
